@@ -255,7 +255,7 @@ header {
 
 
 .navbar {
-    width: 200;
+    width: 900px;
     text-align: center;
 }
 
@@ -960,10 +960,6 @@ footer {
         width: 160px; 
         height: auto;
     }
-
-    .social-media-icons {
-        display: non
-    }
     
     .search-bar{
         margin: -90px 0;
@@ -986,7 +982,8 @@ footer {
     }
 
     .navbar { 
-        background-color: none; 
+        width: 100%;
+        background-color: transparent; 
         padding: 10px;
         position: absolute;
         top: 100%; 
