@@ -254,7 +254,7 @@ header {
 
 
 .navbar {
-    width: 200;
+    width: 900px;
     text-align: center;
 }
 
@@ -380,6 +380,9 @@ body {
     text-align: center;
     padding: 20px;
   }
+h4 {
+    font-size: 22px;
+}
   
 .search-barq {
     display: flex;
@@ -430,7 +433,10 @@ body {
     padding: 20px;
     gap: 15px;
   }
-  
+
+#faq-cards h2 {
+    text-align: center;
+}
 .faq-card {
     background-color: #1e1e1e;
     padding: 15px;
@@ -660,10 +666,6 @@ footer {
         width: 160px; 
         height: auto;
     }
-
-    .social-media-icons {
-        display: non
-    }
     
     .search-bar{
         margin: -90px 0;
@@ -686,7 +688,8 @@ footer {
     }
 
     .navbar { 
-        background-color: none; 
+        width: 100%;
+        background-color: transparent; 
         padding: 10px;
         position: absolute;
         top: 100%; 
@@ -781,7 +784,7 @@ footer {
 
     .faq-grid {
         flex-direction: column;
-        gap: 20px; /
+        gap: 20px; 
     }
 
     .faq-card {
