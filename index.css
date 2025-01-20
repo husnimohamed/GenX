@@ -452,6 +452,24 @@ body {
 
 /* Flash Deal Section */
 
+.offer-highlights, .trending-types, .game-highlights {
+    padding: 10px;
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #ccc;
+}
+
+.trending-types, .upcoming-games-list {
+    padding: 10px;
+    list-style-type: decimal;
+    margin-left: 20px;
+    color: #ccc;
+}
+
+.offer-highlights li, .trending-types li, .game-highlights li, .upcoming-games-list li {
+    font-size: 1em;
+    margin-bottom: 8px;
+}
 
 .deals-container {
     display: flex;
