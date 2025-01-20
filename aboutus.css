@@ -457,6 +457,10 @@ h3{
 }
 
 .about-us{
+    font-size: 14px; 
+    font-family: 'Mogra', sans-serif; 
+    line-height: 1.6; 
+    color: #b3b3b3; 
     width: 80%;
     margin: auto;
     padding-top: 80px;
@@ -471,9 +475,13 @@ h3{
     height: 99%;
 }
 .about-colm h3{
+    font-size: 32px;
+    font-weight: bold;
+    color: #ccc;
+    margin-bottom: 10px;
     padding-top: 0;
 }
-.about-colm li{
+.about-colm p {
     padding: 15px 0 25px;
     font-size: 20px ;
     font-family: Arial, Helvetica, sans-serif;
